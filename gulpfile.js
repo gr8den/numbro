@@ -28,6 +28,7 @@ const buffer = require("vinyl-buffer");
 const path = require("path");
 const fs = require("fs");
 const reporters = require("jasmine-reporters");
+const SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 const Server = require("karma").Server;
 
 const { series, parallel } = gulp;
@@ -170,7 +171,8 @@ gulp.task("pre-test", () => {
 gulp.task("test:unit:run", () => {
     return gulp.src("./tests/**/*.js")
         .pipe(plugins.jasmine({
-            reporter: new reporters.TerminalReporter()
+            // reporter: new SpecReporter()
+            // reporter: new reporters.TerminalReporter()
         }))
         .pipe(plugins.istanbul.writeReports())
         .pipe(plugins.istanbul.enforceThresholds({ thresholds: { global: 100 } }));

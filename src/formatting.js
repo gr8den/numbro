@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /*!
  * Copyright (c) 2017 Benjamin Van Ryseghem<benjamin@vanryseghem.com>
  *
@@ -64,6 +65,9 @@ const bytes = {
  */
 function format(instance, providedFormat = {}, numbro) {
     if (typeof providedFormat === "string") {
+        if(providedFormat === '0,0') {
+            console.log(providedFormat, parsing.parseFormat(providedFormat));
+        }
         providedFormat = parsing.parseFormat(providedFormat);
     }
 

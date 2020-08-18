@@ -173,6 +173,8 @@ function parseMantissa(string, result) {
         if (match) {
             result.mantissa = match[0].length;
         }
+    } else {
+        result.mantissa = 0;
     }
 }
 
