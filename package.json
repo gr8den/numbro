@@ -1,6 +1,6 @@
 {
-  "name": "numbro",
-  "version": "2.3.1",
+  "name": "numdad",
+  "version": "3.3.1",
   "description": "Format and manipulate numbers.",
   "homepage": "http://numbrojs.com",
   "author": {
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BenjaminVanRyseghem/numbro"
+    "url": "https://github.com/gr8den/numdad"
   },
   "bugs": {
-    "url": "https://github.com/BenjaminVanRyseghem/numbro/issues"
+    "url": "https://github.com/gr8den/numdad/issues"
   },
   "license": "MIT",
   "devDependencies": {

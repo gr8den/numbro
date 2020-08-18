@@ -1,9 +1,9 @@
-# [numbro](https://numbrojs.com/)
+# [numdad](https://numbrojs.com/)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-112-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Monthly download](https://img.shields.io/npm/dm/numbro.svg?style=flat-square)](https://www.npmjs.com/package/numbro)
+[![Monthly download](https://img.shields.io/npm/dm/numdad.svg?style=flat-square)](https://www.npmjs.com/package/numdad)
 
 A javascript library for formatting and manipulating numbers.
 
@@ -18,7 +18,7 @@ Develop [![Build Status](https://travis-ci.org/BenjaminVanRyseghem/numbro.svg?br
 
 # NPM
 
-[![NPM](https://nodei.co/npm/numbro.png?downloads=true)](https://nodei.co/npm/numbro/)
+[![NPM](https://nodei.co/npm/numdad.png?downloads=true)](https://nodei.co/npm/numdad/)
 
 # Contributing
 
@@ -40,6 +40,7 @@ See [CHANGELOG.md](CHANGELOG.md). For the original project (Numeral.js) changelo
 
 # Acknowledgements
 
+`numdad` is forked from `numbro` for original numeral.js formating fix
 `numbro` is forked from [Adam Draper](https://github.com/adamwdraper)'s project
 [Numeral.js](http://numeraljs.com/), which was in turn inspired by and heavily borrowed from
 [Moment.js](http://momentjs.com).
